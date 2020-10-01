@@ -61,8 +61,18 @@ function promptUser() {
     {
       type: "input",
       name: "tests",
-      message: "I'm going to write the test from scratch."
-    }
+      message: "I'm going to write the test from scratch"
+    },
+    {
+      type: "input",
+      name: "github",
+      message: "when I enter my username"
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "How to reach me if you have additional questions"
+    },
   ]);
 }
 
@@ -83,10 +93,12 @@ function generateMD(answers) {
   ## Description: ${answers.description}
   
   ## Installation: ${answers.install}
-  ## Usage: ${answer.usage}
+  ## Usage: ${answers.usage}
   ## License: ${answers.license}
   ## Contributing: ${answers.contributing}
   ## Tests: ${answers.tests}
+  ## GitHub:${answers.github}
+  ## Email: ${answers.email}
 `
 }
 
