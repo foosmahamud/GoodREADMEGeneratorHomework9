@@ -1,5 +1,5 @@
 
-  # Title: a
+  # Title: app
   
   ## Table of Contents:
   
@@ -11,10 +11,12 @@
   * Tests
   * Questions
 
-  ## Description: b
+  ## Description: application
   
-  ## Installation: c
-  ## Usage: d
+  ## Installation: follow the instractions
+  ## Usage: the details are there
   ## License: undefined
-  ## Contributing: e
-  ## Tests: f
+  ## Contributing: nothing 
+  ## Tests: ok
+  ## GitHub:show me a descriptions
+  ## Email: via email
